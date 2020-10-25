@@ -1,0 +1,39 @@
+
+
+.nav-link {font-size: 1.25rem;}
+
+
+#carouselExampleIndicators,.container, .accordion{margin-bottom:100px;}
+
+
+footer { background-color:lightgrey;}
+h3{
+    padding: 20px;
+text-align: center;}
+
+.icons {padding: 20px;
+border-top: linen solid 3px;}
+
+.socialMedia {list-style-type: none;
+text-align: center;}
+
+.socialMedia li {
+  display: inline;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.copyright {text-align: center;
+padding: 30px;
+background-color: rgb(175, 169, 169);}
+
+
+
+@media (min-width:768px){
+    #carouselExampleIndicators,.container, .accordion{margin-bottom:150px}
+    ul {text-align: right;}
+}
+
+@media (min-width:1200px) {
+    #carouselExampleIndicators,.container, .accordion{margin-bottom:200px;}
+}
